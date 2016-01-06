@@ -1,40 +1,10 @@
 ﻿
 jQuery(document).ready(function() {
 
-// ******************************************************************************************
-// Contact Form Start
-// ******************************************************************************************
-		$(document).ready(function(){
+$(document).ready(function(){
 		  
-		 $("#form").validate({
-			debug: false,
-			rules: {
-				name: "required",
-				phone:"digits",
-				message: "required",
-			email: {
-					required: true,
-					email: true
-				   }
-			},
-			messages: {
-				name: "Please let us know who you are.",
-				email: "A valid email will help us get in touch with you."
-				
-			},
-			submitHandler: function() {
-				// do other stuff for a valid form
-				$.post('email_process.php', $("#form").serialize(), function(data) {
-				$('#post_message').html(data);
-				});
-			}
-		});
-
-//Contact Form END	
-
-
 /***************************************************
-		  		   // Portfolio on mouseover opactiy
+// Portfolio on mouseover opactiy
 ***************************************************/	
 
 if( jQuery.hasOwnProperty("prettyPhoto") ){

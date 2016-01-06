@@ -1311,7 +1311,7 @@ input[type="submit"]:hover{ color:#2d2d2d; text-align:center; border:0; outline:
     65% { transform: translateY(-52px);}
     82% { transform: translateY(-25px);}
     92% { transform: translateY(-12px);}
-    55%, 75%, 87%, 97%, 100% { transform: translateY(0px);
+    55%, 75%, 87%, 97%, 100% { transform: translateY(0px);}
 }
 @-moz-keyframes bounceY {
     0% { -moz-transform: translateY(-205px);}
@@ -1319,7 +1319,7 @@ input[type="submit"]:hover{ color:#2d2d2d; text-align:center; border:0; outline:
     65% { -moz-transform: translateY(-52px);}
     82% { -moz-transform: translateY(-25px);}
     92% { -moz-transform: translateY(-12px);}
-    55%, 75%, 87%, 97%, 100% { -moz-transform: translateY(0px);
+    55%, 75%, 87%, 97%, 100% { -moz-transform: translateY(0px);}
 }
 @-webkit-keyframes bounceY {
     0% { -webkit-transform: translateY(-205px);}
@@ -1327,7 +1327,7 @@ input[type="submit"]:hover{ color:#2d2d2d; text-align:center; border:0; outline:
     65% { -webkit-transform: translateY(-52px);}
     82% { -webkit-transform: translateY(-25px);}
     92% { -webkit-transform: translateY(-12px);}
-    55%, 75%, 87%, 97%, 100% { -webkit-transform: translateY(0px);
+    55%, 75%, 87%, 97%, 100% { -webkit-transform: translateY(0px);}
 }
 /* // Portfolio images */
 /* // Portfolio styles */
